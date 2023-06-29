@@ -120,7 +120,7 @@ img{
 }
 
 .main {
-    height: 100vh;
+    /**height: 100vh;**/
     padding-top: var(--nav-size);
     display: grid;
     place-items: center;
@@ -443,7 +443,8 @@ img{
         min-width: unset;
     }
 
-    .main {
+   /** .main {
         height: 100vh;
-    }
+        
+    }**/
 }
